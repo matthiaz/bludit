@@ -52,6 +52,10 @@ Official Docker image on Docker Hub.
 Also we provide Kubernetes deployments yaml files.
 - https://github.com/bludit/docker/tree/master/kubernetes
 
+Deploy On Platform.sh
+------------
+<a href="https://console.platform.sh/projects/create-project/?template=https://github.com/matthiaz/bludit/&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/matthiaz/bludit/" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg"></a>
+
 Support Bludit!
 -------
 Bludit is open soruce and free, but if you really like the project and is useful for your you can contribute in [Patreon](https://www.patreon.com/bePatron?c=921115&rid=2458860), also for the supporters we provide Bludit PRO.
