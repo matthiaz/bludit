@@ -56,7 +56,10 @@ Deploy On Platform.sh
 ------------
 <a href="https://console.platform.sh/projects/create-project/?template=https://github.com/matthiaz/bludit/&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/matthiaz/bludit/" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg"></a>
 
-Be aware that, for the install to work in the deploy hook. You will have to create an environment variable called `env:BLUDIT_PASSWORD` on the master branch. Make it a variable that contains a sensitive value.
+Be aware that, for the install to work in the deploy hook. You will have to create an project variable called `env:BLUDIT_PASSWORD`. 
+Make it a variable that contains a sensitive value.
+And make it available during runtime.
+
 If you don't have the variable, the install will fail, and the site will keep showing the install.php menu
 
 Support Bludit!
