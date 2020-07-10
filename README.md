@@ -56,6 +56,9 @@ Deploy On Platform.sh
 ------------
 <a href="https://console.platform.sh/projects/create-project/?template=https://github.com/matthiaz/bludit/&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://github.com/matthiaz/bludit/" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg"></a>
 
+Be aware that, for the install to work in the deploy hook. You will have to create an environment variable called `env:BLUDIT_PASSWORD` on the master branch. Make it a variable that contains a sensitive value.
+If you don't have the variable, the install will fail, and the site will keep showing the install.php menu
+
 Support Bludit!
 -------
 Bludit is open soruce and free, but if you really like the project and is useful for your you can contribute in [Patreon](https://www.patreon.com/bePatron?c=921115&rid=2458860), also for the supporters we provide Bludit PRO.
